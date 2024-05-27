@@ -3,6 +3,15 @@
 
 BizCardX is a Streamlit application that effortlessly streamlines business card data extraction through advanced OCR technology. Users can easily upload card images to retrieve essential details, including company names, cardholder names, contact information, and more. With a strong focus on data security and user authentication, BizCardX ensures secure data storage and offers streamlined management via the user-friendly Streamlit UI. Experience an efficient, secure, and user-friendly solution for managing business card information effortlessly with BizCardX.
 
+## Project Overview
+
+BizCardX aims to simplify the process of extracting and managing information from business cards. The tool offers the following features:
+
+    * Extraction of key information from business cards: company name, cardholder name, designation, contact details, etc.
+    * Storage of extracted data in a MySQL database for easy access and retrieval.
+    * GUI built with Streamlit for a user-friendly interface.
+    * User options to upload, extract, and modify business card data.
+
 * To run this project, you need to install the following packages:
   
        pip install easyocr 
