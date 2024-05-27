@@ -51,9 +51,13 @@ Step 3. Modification zone
     
 ## Project Overview
 BizCardX aims to simplify the process of extracting and managing information from business cards. The tool offers the following features:
+
     * Extraction of key information from business cards: company name, cardholder name, designation, contact details, etc.
+    
     * Storage of extracted data in a MySQL database for easy access and retrieval.
+    
     * GUI built with Streamlit for a user-friendly interface.
+    
     * User options to upload, extract, and modify business card data.
 
   
