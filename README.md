@@ -23,31 +23,31 @@ BizCardX is a Streamlit application that effortlessly streamlines business card 
 
 * E T L Process
   
-a) Extract data
-
-   * Extract relevant information from business cards by using the easyOCR library
-     
-b) Process and Transform the data
-
-   * After the extraction process, process the extracted data based on,Name, Company name,  Designation, Mobile Number, Email, Address, and Pincode is converted into a data frame.
-     
-c) Load data
-
-   * After the transformation process, the data is stored in the SQLITE3.
+      a) Extract data
+        
+           * Extract relevant information from business cards by using the easyOCR library
+             
+      b) Process and Transform the data
+        
+           * After the extraction process, process the extracted data based on,Name, Company name,  Designation, Mobile Number, Email, Address, and Pincode is converted into a data frame.
+             
+      c) Load data
+        
+           * After the transformation process, the data is stored in the SQLITE3.
 
 ## User Guide
 
 Step 1. Data collection zone
 
-  Click the 'Browse Files' button and select an image
+    Click the 'Browse Files' button and select an image
   
 Step 2. Data upload
 
-  Click the 'Upload' button to upload the data to the sql database
-  
+    Click the 'Upload' button to upload the data to the sql database
+   
 Step 3. Modification zone
 
-  In this 'Modification zone' you can able to modify the information also you can delete the previous data
+    In this 'Modification zone' you can able to modify the information also you can delete the previous data
 
 
   
