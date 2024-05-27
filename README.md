@@ -62,7 +62,7 @@ BizCardX aims to simplify the process of extracting and managing information fro
     
 * Contact
 
-📧 Email: suvetha0520@gmail.com
+       📧 Email: suvetha0520@gmail.com
 
-🌐 LinkedIn: https://www.linkedin.com/in/suvetha-soubrayen-82a072190/
+       🌐 LinkedIn: https://www.linkedin.com/in/suvetha-soubrayen-82a072190/
   
