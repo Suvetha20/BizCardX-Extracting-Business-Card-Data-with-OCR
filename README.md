@@ -59,5 +59,10 @@ BizCardX aims to simplify the process of extracting and managing information fro
     * GUI built with Streamlit for a user-friendly interface.
     
     * User options to upload, extract, and modify business card data.
+    
+* Contact
 
+📧 Email: suvetha0520@gmail.com
+
+🌐 LinkedIn: https://www.linkedin.com/in/suvetha-soubrayen-82a072190/
   
