@@ -67,12 +67,8 @@ def extracted_text(texts):
 
 
 #Streamlit part
-
-st.set_page_config(page_title= "BizCardX: Extracting Business Card Data with OCR",
-                   layout= "wide",
-                   initial_sidebar_state= "expanded")
-
-st.markdown("<h1 style='text-align: center; color: white;'>BizCardX: Extracting Business Card Data with OCR</h1>", unsafe_allow_html=True)
+st.set_page_config(layout = "wide")
+st.title(":rainbow[EXTRACTING BUSINESS CARD DATA WITH 'OCR']")
 
 
 with st.sidebar:
@@ -80,15 +76,13 @@ with st.sidebar:
   select= option_menu("Main Menu", ["Home", "Upload & Modifying", "Delete"])
 
 if select == "Home":
-  st.markdown("### :blue[**Technologies Used :**] Python,easy OCR, Streamlit, SQL, Pandas")
+  st.markdown("### :raibow[**Technologies Used :**] Python,easy OCR, Streamlit, SQL, Pandas")
 
 
 
-  st.write(
-            "### :green[**About :**] Bizcard is a Python application designed to extract information from business cards.")
-  st.write(
-            '### The main purpose of Bizcard is to automate the process of extracting key details from business card images, such as the name, designation, company, contact information, and other relevant data. By leveraging the power of OCR (Optical Character Recognition) provided by EasyOCR, Bizcard is able to extract text from the images.')
-
+  st.write( "### :rainbow[**About :**] Bizcard is a Python application designed to extract information from business cards.")
+  st.image(r"/content/Bizcardx img.jpg")
+  
 elif select == "Upload & Modifying":
   img = st.file_uploader("Upload the Image", type= ["png","jpg","jpeg"])
 
